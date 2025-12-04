@@ -1,8 +1,16 @@
+# 🕊️ ParishPress Project
+
+Part of the **ParishPress** suite — modern, modular WordPress tools for Catholic parish websites.
+
+---
+
 # ParishPress Homilies
 
 ![License: GPL-2.0-or-later](https://img.shields.io/badge/License-GPL--2.0--or--later-blue.svg)
+![WordPress: 6.5+](https://img.shields.io/badge/WordPress-6.5%2B-21759b.svg)
+![PHP: 7.4+](https://img.shields.io/badge/PHP-7.4%2B-777bbb.svg)
 
-ParishPress Homilies adds a **Homilies** custom post type with sermon date, preacher, audio, video, and notes/document support. List recent homilies with a shortcode or block, play audio/video inline, and surface notes links automatically on single homily pages.
+A WordPress plugin for organizing and publishing parish homilies. Provides a “Homilies” custom post type with sermon date, preacher, and audio URL fields. Includes a shortcode for embedding homily lists in any page or block theme. Ideal for parishes publishing weekly or seasonal messages.
 
 ---
 
@@ -46,3 +54,19 @@ Add the **ParishPress Homilies** block in the editor to adjust the list length v
 1. Upload or clone `parishpress-homilies` into `wp-content/plugins/`.
 2. Activate **ParishPress Homilies** from Plugins.
 3. Add Homilies (`pp_homily`) with date, preacher, and media URLs, then place the shortcode or block where you want the list to appear.
+
+---
+
+## 📝 Changelog
+
+0.2.0
+
+- Initial commit.
+
+---
+
+## 🔑 License
+
+Licensed under the GPL-2.0-or-later license.
+
+---

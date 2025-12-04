@@ -1,0 +1,51 @@
+.parishpress-homilies-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.parishpress-homilies-item {
+    margin-bottom: 1rem;
+}
+
+.pp-homily-header {
+    margin-bottom: 0.25rem;
+}
+
+.pp-homily-title {
+    font-weight: 600;
+}
+
+.pp-homily-date {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.pp-homily-preacher {
+    font-style: italic;
+}
+
+.pp-homily-audio {
+    margin-top: 0.25rem;
+}
+
+.pp-homily-video {
+    margin-top: 0.5rem;
+    max-width: 100%;
+}
+
+.pp-homily-featured-video iframe,
+.pp-homily-featured-video video {
+    max-width: 100%;
+    height: auto;
+}
+
+.pp-homily-doc {
+    margin-top: 0.35rem;
+}
+
+.pp-homily-doc a,
+.pp-homily-doc-link {
+    color: var(--wp--preset--color--link, var(--wp--preset--color--primary, #0073aa));
+    text-decoration: underline;
+}

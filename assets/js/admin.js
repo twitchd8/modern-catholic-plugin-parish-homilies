@@ -1,4 +1,4 @@
-// Admin script for ParishPress Homilies media pickers.
+// Admin script for Modern Catholic – Parish Homilies media pickers.
 (function( $ ) {
     function bindMediaButton( buttonSelector, inputSelector, libraryTypes, chooserTitle, buttonText ) {
         var frame;

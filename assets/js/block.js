@@ -6,7 +6,7 @@
     const { Fragment, createElement: el } = wp.element;
 
     registerBlockType( 'parishpress/homilies', {
-        title: __( 'ParishPress Homilies', 'parishpress-homilies' ),
+        title: __( 'Modern Catholic – Parish Homilies', 'parishpress-homilies' ),
         icon: 'microphone',
         category: 'widgets',
         attributes: {
@@ -37,7 +37,7 @@
                 el(
                     'div',
                     { className: 'parishpress-block-placeholder' },
-                    el( 'strong', null, __( 'ParishPress Homilies', 'parishpress-homilies' ) ),
+                    el( 'strong', null, __( 'Modern Catholic – Parish Homilies', 'parishpress-homilies' ) ),
                     el( 'div', null, __( 'Displays recent homilies.', 'parishpress-homilies' ) ),
                     el( 'div', null, __( 'Limit', 'parishpress-homilies' ), ': ', limitValue )
                 )

@@ -20,7 +20,7 @@ add_action( 'wp_enqueue_scripts', 'parishpress_homilies_enqueue_assets' );
 function parishpress_homilies_enqueue_admin_assets( $hook ) {
     global $post;
 
-    if ( ! isset( $post->post_type ) || 'pp_homily' !== $post->post_type ) {
+    if ( ! isset( $post->post_type ) || 'mc_homily' !== $post->post_type ) {
         return;
     }
 

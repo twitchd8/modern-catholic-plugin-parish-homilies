@@ -18,7 +18,7 @@ function parishpress_homilies_shortcode( $atts ) {
 
     $q = new WP_Query(
         array(
-            'post_type'      => 'pp_homily',
+            'post_type'      => 'mc_homily',
             'posts_per_page' => (int) $atts['limit'],
             'meta_key'       => '_pp_homily_date',
             'orderby'        => 'meta_value',

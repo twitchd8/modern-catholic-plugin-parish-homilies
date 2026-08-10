@@ -23,6 +23,6 @@ function parishpress_homilies_register_cpt() {
         'menu_icon'    => 'dashicons-microphone',
     );
 
-    register_post_type( 'pp_homily', $args );
+    register_post_type( 'mc_homily', $args );
 }
 add_action( 'init', 'parishpress_homilies_register_cpt' );

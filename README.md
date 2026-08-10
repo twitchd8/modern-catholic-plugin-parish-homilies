@@ -16,7 +16,7 @@ A WordPress plugin for organizing and publishing parish homilies. Provides a “
 
 ## Features
 
-- Custom post type `pp_homily` with an archive at `/homilies` (`show_in_rest: true`)
+- Standardized custom post type `mc_homily` with an archive at `/homilies` (`show_in_rest: true`)
 - Meta box fields for date (`_pp_homily_date`), preacher (`_pp_homily_preacher`), audio URL (`_pp_homily_audio`), video URL (`_pp_homily_video`), and notes/document URL (`_pp_homily_doc`) with media-library pickers
 - Shortcode `[parishpress_homilies]` lists homilies ordered by date descending and renders audio players, video embeds (oEmbed or direct video), and notes links when present
 - Block: **Modern Catholic – Parish Homilies** (`parishpress/homilies`) exposes the `limit` setting in the editor and renders through the shortcode
@@ -53,11 +53,15 @@ Add the **Modern Catholic – Parish Homilies** block in the editor to adjust th
 
 1. Upload or clone `modern-catholic-parish-homilies` into `wp-content/plugins/`.
 2. Activate **Modern Catholic – Parish Homilies** from Plugins.
-3. Add Homilies (`pp_homily`) with date, preacher, and media URLs, then place the shortcode or block where you want the list to appear.
+3. Add Homilies (`mc_homily`) with date, preacher, and media URLs, then place the shortcode or block where you want the list to appear.
 
 ---
 
 ## 📝 Changelog
+
+0.2.1
+
+- Standardize the post type key as `mc_homily` and migrate existing `pp_homily` posts.
 
 0.2.0
 
@@ -71,9 +75,9 @@ Licensed under the GNU General Public License version 3.0 only (`GPL-3.0-only`).
 
 ## Compatibility identifiers
 
-The `pp_homily` post type, `_pp_homily_*` metadata,
-`[parishpress_homilies]` shortcode, `parishpress/homilies` block name, and
-`parishpress-homilies` text domain are retained so existing WordPress content
-remains compatible. New public branding uses Modern Catholic.
+Existing `pp_homily` posts are migrated to the standardized `mc_homily` post
+type. The `_pp_homily_*` metadata, `[parishpress_homilies]` shortcode,
+`parishpress/homilies` block name, and `parishpress-homilies` text domain remain
+stable so existing WordPress content remains compatible.
 
 ---

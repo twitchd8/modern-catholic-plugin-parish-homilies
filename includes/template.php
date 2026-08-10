@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Append homily media (audio, video, document) to single homily pages.
  */
 function parishpress_homilies_append_to_content( $content ) {
-    if ( ! is_singular( 'pp_homily' ) || ! in_the_loop() || ! is_main_query() || is_feed() ) {
+    if ( ! is_singular( 'mc_homily' ) || ! in_the_loop() || ! is_main_query() || is_feed() ) {
         return $content;
     }
 
@@ -58,7 +58,7 @@ add_filter( 'the_content', 'parishpress_homilies_append_to_content' );
  * Replace featured image with video embed if a homily video is set.
  */
 function parishpress_homilies_featured_video( $html, $post_id, $post_thumbnail_id ) {
-    if ( 'pp_homily' !== get_post_type( $post_id ) ) {
+    if ( 'mc_homily' !== get_post_type( $post_id ) ) {
         return $html;
     }
 

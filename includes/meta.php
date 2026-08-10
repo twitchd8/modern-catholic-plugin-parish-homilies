@@ -9,7 +9,7 @@ function parishpress_homilies_add_meta_box() {
         'parishpress_homily_details',
         __( 'Homily Details', 'parishpress-homilies' ),
         'parishpress_homilies_render_meta_box',
-        'pp_homily',
+        'mc_homily',
         'normal',
         'default'
     );
@@ -84,4 +84,4 @@ function parishpress_homilies_save_meta( $post_id ) {
         }
     }
 }
-add_action( 'save_post_pp_homily', 'parishpress_homilies_save_meta' );
+add_action( 'save_post_mc_homily', 'parishpress_homilies_save_meta' );

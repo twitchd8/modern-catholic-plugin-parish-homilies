@@ -51,7 +51,7 @@ Add the **Modern Catholic – Parish Homilies** block in the editor to adjust th
 
 ## Installation
 
-1. Upload or clone `modern-catholic-parish-homilies` into `wp-content/plugins/`.
+1. Upload or clone `modern-catholic-plugin-parish-homilies` into `wp-content/plugins/`.
 2. Activate **Modern Catholic – Parish Homilies** from Plugins.
 3. Add Homilies (`mc_homily`) with date, preacher, and media URLs, then place the shortcode or block where you want the list to appear.
 

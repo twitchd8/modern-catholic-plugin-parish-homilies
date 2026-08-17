@@ -3,7 +3,7 @@
  * Plugin Name: Modern Catholic – Parish Homilies
  * Plugin URI: https://github.com/twitchd8/modern-catholic-plugin-parish-homilies
  * Description: Parish homilies for Modern Catholic websites as a custom post type with audio, video, and document support.
- * Version: 0.2.1
+ * Version: 0.2.2
  * Author: Andrew Schmitt
  * License: GPL-3.0-only
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Legacy PARISHPRESS_* constants remain part of the plugin's compatibility surface.
-define( 'PARISHPRESS_HOMILIES_VERSION', '0.2.1' );
+define( 'PARISHPRESS_HOMILIES_VERSION', '0.2.2' );
 define( 'PARISHPRESS_HOMILIES_PATH', plugin_dir_path( __FILE__ ) );
 define( 'PARISHPRESS_HOMILIES_URL', plugin_dir_url( __FILE__ ) );
 

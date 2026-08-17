@@ -57,19 +57,23 @@ Add the **Modern Catholic – Parish Homilies** block in the editor to adjust th
 
 ---
 
-## 📝 Changelog
+## Changelog
 
-0.2.1
+### 0.2.2
+
+- Standardize the GitHub README and release metadata across the Modern Catholic component suite.
+
+### 0.2.1
 
 - Standardize the post type key as `mc_homily` and migrate existing `pp_homily` posts.
 
-0.2.0
+### 0.2.0
 
 - Initial commit.
 
 ---
 
-## 🔑 License
+## License
 
 Licensed under the GNU General Public License version 3.0 only (`GPL-3.0-only`).
 
